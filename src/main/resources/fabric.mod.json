@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "silent_home",
+  "version": "${version}",
+  "name": "SilentHome",
+  "description": "Blendet Home-Bestaetigungen im Chat lokal aus.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.theguy196.silenthome.SilentHomeClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
